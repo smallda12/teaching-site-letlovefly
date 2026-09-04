@@ -551,3 +551,15 @@ window.全部評量 = UNIT.重點.flatMap((r) =>
 const 資源v = () => `?v=${(window.CONFIG && CONFIG.資源版本) || 1}`;
 window.頁圖 = (n) => `assets/pages/p${String(n).padStart(2, "0")}.webp${資源v()}`;
 window.卡圖 = (n) => `assets/cards/card${String(n).padStart(2, "0")}_front.webp${資源v()}`;
+
+/* ===== AUTO:課文（由 補課文導讀.py 產生，不要手改）START ===== */
+window.UNIT.課文 = {
+  "標題": "讓愛飛翔",
+  "段落": [
+    { "文": "一位學生在教室摺了一架紙飛機，寫上「謝謝一直幫助我的人」。老師把世界地圖放在桌上，大家想像紙飛機飛向不同的地方。", "語音": "assets/audio/kewen_01.mp3" },
+    { "文": "紙飛機先飛到法國巴黎，看見高高的鐵塔；再飛到美國紐約，看見自由女神像。每到一個地方，它都帶著一句友善的祝福。", "語音": "assets/audio/kewen_02.mp3" },
+    { "文": "回到教室後，這位學生想：愛不一定要飛很遠。我可以說謝謝、幫忙整理，或把讀過的書分享給別人。小小的行動，也能讓愛繼續飛。", "語音": "assets/audio/kewen_03.mp3" }
+  ],
+  "語音": "assets/audio/kewen.mp3"
+};
+/* ===== AUTO:課文 END ===== */
